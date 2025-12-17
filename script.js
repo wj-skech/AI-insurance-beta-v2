@@ -1,7 +1,7 @@
 const { useState, useEffect } = React;
 
 // 🔑 [설정]
-const VALID_CODES = ["kb2025", "team01", "1234"]; 
+const VALID_CODES = ["kb2025", "team01"]; 
 const APP_NAME = "AI 간편 보장분석";
 
 // [데이터]
@@ -381,4 +381,5 @@ function App() {
 }
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(<App />);
